@@ -10,7 +10,7 @@ for i in requests.get("https://registry.api.identifiers.org/restApi/namespaces?s
 df4=df3[df3[0].isin(idorgpref)]
 df5=df2[df3[0].isin(idorgpref)]
 
-result = pd.DataFrame({'idenfiersorg1': df4[0], 'id1': df4[1], 'id2': df5['ID']})
-result['idenfiersorg2'] = 'metanetx.reaction'
+result = pd.DataFrame({'idenfiersorg2': df4[0], 'id2': df4[1], 'id1': df5['ID']})
+result['idenfiersorg1'] = 'metanetx.reaction'
 result = result[['idenfiersorg1', 'id1', 'idenfiersorg2', 'id2']]
 result.to_csv('metanetx.reaction.csv', index=False)
