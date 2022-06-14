@@ -22,5 +22,5 @@ jobs:
       run: cd scripts && bash download.sh
       
     - name: make bigg.metabolite.csv
-      run: make bigg.metabolite.csv
+      run: cd scripts && make bigg.metabolite.csv
       
