@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 
-df = pd.read_table("https://www.metanetx.org/cgi-bin/mnxget/mnxref/reac_xref.tsv", skiprows=351)
+df = pd.read_table("reac_xref.tsv", skiprows=351)
 df2 = df.drop(columns=['description'])
 df3 = df2['#source'].str.split(':', expand=True)
 

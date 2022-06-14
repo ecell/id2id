@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_table("http://bigg.ucsd.edu/static/namespace/bigg_models_reactions.txt")
+df = pd.read_table("bigg_models_reactions.txt")
 df2 = df.drop(columns=['name', 'reaction_string', 'model_list', 'old_bigg_ids'])
 df2['database_links'] = df2['database_links'].str.split('; ')
 df2 = df2.explode('database_links')
