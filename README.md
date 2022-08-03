@@ -11,3 +11,5 @@ Run `cd scripts && bash download.sh`
 
 ## How to generate id2id tables
 
+## id2id table column definitions
+
