@@ -7,3 +7,4 @@
 
 ## How to download data for id2id
 
+Run `cd scripts && bash download.sh`
