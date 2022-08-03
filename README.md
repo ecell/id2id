@@ -4,6 +4,8 @@
 
 1. Ubuntu
 2. wget
+3. Python
+4. pandas
 
 ## How to download data for id2id
 
