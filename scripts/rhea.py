@@ -8,3 +8,5 @@ df['ID'] = tmp
 df['identifiersorgprefix1'] = "rhea"
 df.rename(columns = {'RHEA_ID':'id1', 'ID':'id2', 'DB':'identifiersorgprefix2'}, inplace = True)
 df = df[['identifiersorgprefix1', 'id1', 'identifiersorgprefix2', 'id2']]
+tmp = 'ECOCYC:' + df[df['identifiersorgprefix2']=='biocyc']['id2']
+df['id2'].loc[tmp.index] = tmp
