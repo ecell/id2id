@@ -7,3 +7,4 @@ tmp = df['ID'].str.replace('^GO:', '', regex=True)
 df['ID'] = tmp
 df['identifiersorgprefix1'] = "rhea"
 df.rename(columns = {'RHEA_ID':'id1', 'ID':'id2', 'DB':'identifiersorgprefix2'}, inplace = True)
+df = df[['identifiersorgprefix1', 'id1', 'identifiersorgprefix2', 'id2']]
