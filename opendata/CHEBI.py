@@ -49,4 +49,9 @@ thisdata2identifiersorg = {"KEGG COMPOUND accession":"kegg.compound",
                            "YMDB accession":None,
                            "ECMDB accession":None,
                            "Pesticides accession":None,
-                           "SMID accession":None,}
+                           "SMID accession":None}
+
+df.replace({"TYPE": thisdata2identifiersorg}, inplace=True)
+df['identifiersorgprefix1'] = 'CHEBI'
+df.rename(columns={'COMPOUND_ID': 'id1', 'TYPE': 'identifiersorgprefix2', 'ACCESSION_NUMBER': 'id2'}, inplace=True)
+df = df[['identifiersorgprefix1', 'id1', 'identifiersorgprefix2', 'id2']]
