@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('compound_origins_3star.tsv', sep='\t')
+df = pd.read_csv('database_accession_3star.tsv', sep='\t')
 df.drop(['ID', 'SOURCE'], axis=1, inplace=True)
 
 thisdata2identifiersorg = {"KEGG COMPOUND accession":"kegg.compound",
@@ -46,10 +46,6 @@ thisdata2identifiersorg = {"KEGG COMPOUND accession":"kegg.compound",
                            "BPDB accession":None,
                            "PPR":None,
                            "GlyGen accession":None}
-                           "YMDB accession":None,
-                           "ECMDB accession":None,
-                           "Pesticides accession":None,
-                           "SMID accession":None}
 
 df.replace({"TYPE": thisdata2identifiersorg}, inplace=True)
 df['identifiersorgprefix1'] = 'CHEBI'
