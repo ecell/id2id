@@ -4,3 +4,7 @@ df.drop(['ID', 'SOURCE'], axis=1, inplace=True)
 thisdata2identifiersorg = {"KEGG COMPOUND accession":"kegg.compound",
                            "CAS Registry Number":"cas",
                            "GlyTouCan accession":"glytoucan",
+                           "FooDB accession":"foodb.compound",
+                           "MetaCyc accession":"metacyc.compound",
+                           "Chemspider accession":"chemspider",
+                           "HMDB accession":"hmdb",}
