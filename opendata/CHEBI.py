@@ -18,4 +18,8 @@ thisdata2identifiersorg = {"KEGG COMPOUND accession":"kegg.compound",
                            "PDBeChem accession":"pdb-ccd",
                            "KEGG GLYCAN accession":"kegg.glycan",
                            "Wikipeida accession":"wikipedia.en",
-                           "DrugBank accession":"drugbank",}
+                           "DrugBank accession":"drugbank",
+                           "MolBase accession":"molbase",
+                           "COMe accession":None,
+                           "RESID accession":"resid",
+                           "LIPID MAPS class accession":None,}
