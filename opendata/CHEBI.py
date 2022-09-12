@@ -7,4 +7,9 @@ thisdata2identifiersorg = {"KEGG COMPOUND accession":"kegg.compound",
                            "FooDB accession":"foodb.compound",
                            "MetaCyc accession":"metacyc.compound",
                            "Chemspider accession":"chemspider",
-                           "HMDB accession":"hmdb",}
+                           "HMDB accession":"hmdb",
+                           "LINCS accession":"lincs.smallmolecule",
+                           "UM-BBD compID":"umbbd.compound",
+                           "Beilstein Registry Number":None,
+                           "LIPID MAPS instance accession":"lipidmaps",
+                           "KEGG DRUG accession":"kegg.drug",}
