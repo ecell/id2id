@@ -28,4 +28,12 @@ thisdata2identifiersorg = {"KEGG COMPOUND accession":"kegg.compound",
                            "Patent accession":None,
                            "WebElements accession":None,
                            "KNApSAcK accession":"knapsack",
-                           "PubMed accession":"pubmed",}
+                           "PubMed accession":"pubmed",
+                           "Agricola citation":None,
+                           "Chinese Abstracts citation":None,
+                           "PubMed Central citation":None,
+                           "CiteXplore citation":None,
+                           "YMDB accession":None,
+                           "ECMDB accession":None,
+                           "Pesticides accession":None,
+                           "SMID accession":None,}
