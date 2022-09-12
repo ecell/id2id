@@ -51,3 +51,4 @@ df.replace({"TYPE": thisdata2identifiersorg}, inplace=True)
 df['identifiersorgprefix1'] = 'CHEBI'
 df.rename(columns={'COMPOUND_ID': 'id1', 'TYPE': 'identifiersorgprefix2', 'ACCESSION_NUMBER': 'id2'}, inplace=True)
 df = df[['identifiersorgprefix1', 'id1', 'identifiersorgprefix2', 'id2']]
+df.to_csv('CHEBI.csv', index=False)
