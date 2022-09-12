@@ -22,4 +22,10 @@ thisdata2identifiersorg = {"KEGG COMPOUND accession":"kegg.compound",
                            "MolBase accession":"molbase",
                            "COMe accession":None,
                            "RESID accession":"resid",
-                           "LIPID MAPS class accession":None,}
+                           "LIPID MAPS class accession":None,
+                           "Reaxys Registry Number":None,
+                           "PDB accession":"pdb",
+                           "Patent accession":None,
+                           "WebElements accession":None,
+                           "KNApSAcK accession":"knapsack",
+                           "PubMed accession":"pubmed",}
