@@ -18,6 +18,6 @@ for ecnumber in c:
                     # if protein[0]['source'] != 'uniprot':
                     #     print(accession)
                     #     print(protein[0]['source'])
-                    print('brenda,' + ecnumber + ',' + protein[0]['source'] + ',' + accession)
+                    # print('brenda,' + ecnumber + ',' + protein[0]['source'] + ',' + accession)
                     f.write('brenda,' + ecnumber + ',' + protein[0]['source'] + ',' + accession + '\n')
 f.close()
