@@ -15,3 +15,7 @@ thisdata2identifiersorg = {
 
 df.replace({1: thisdata2identifiersorg}, inplace=True)
 df.drop(df[df[1].isnull()].index, inplace=True)
+df['identifiersorgprefix1'] = 'uniprot'
+df.rename(columns={0:'id1', 1:'identifiersorgprefix2', 2:'id2'}, inplace=True)
+df = df[['identifiersorgprefix1', 'id1', 'identifiersorgprefix2', 'id2']]
+df.to_csv('uniprot.csv', index=False)
