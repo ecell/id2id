@@ -9,4 +9,6 @@ thisdata2identifiersorg = {
     'EnsemblGenome_TRS':None, 'EnsemblGenome_PRO':None, 'GeneID':None, 'KEGG':None, 'PATRIC':None,
     'EchoBASE':'echobase', 'eggNOG':'eggnog', 'HOGENOM':'hogenom', 'OMA':'oma.protein', 'BioCyc':'biocyc',
     'CRC64':None, 'Gene_Synonym':None, 'UniPathway':None, 'Gene_ORFName':None, 'MEROPS':'merops', 'TCDB':'tcdb',
+    'ComplexPortal':'complexportal', 'DNASU':None, 'MINT':None, 'ESTHER':None, 'PeroxiBase':'peroxibase', 'CollecTF':None,
+    'PHI-base':None, 'Allergome':'allergome', 'DisProt':'disprot', 'REBASE':'rebase', 'SwissLipids':None, 'Reactome':'reactome'
 }
