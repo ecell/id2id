@@ -6,7 +6,8 @@
 2. wget
 3. Python
 4. pandas
-5. make
+5. pybiopax
+6. make
 
 ## How to download data for id2id
 
