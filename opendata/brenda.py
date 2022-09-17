@@ -6,6 +6,7 @@ data = brenda['data']
 ecnumbers = data.keys()
 
 f = open('brenda.csv', 'w')
+f.write('identifiersorgprefix1,id1,identifiersorgprefix2,id2\n')
 for ecnumber in c:
     if ecnumber != 'spontaneous':
         if 'proteins' in b[ecnumber]:
