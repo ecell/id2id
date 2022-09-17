@@ -1,3 +1,6 @@
+import pandas as pd
+df = pd.read_csv('ECOLI_83333_idmapping.dat', sep='\t', header=None)
+
 thisdata2identifiersorg = {
     'UniProtKB-ID':None,
     'Gene_Name':None,
@@ -34,4 +37,5 @@ thisdata2identifiersorg = {
     'UniPathway':None,
     'Gene_ORFName':None,
     'MEROPS':'merops',
-    'TCDB':'tcdb',}
+    'TCDB':'tcdb',
+}
