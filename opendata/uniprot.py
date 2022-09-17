@@ -12,3 +12,6 @@ thisdata2identifiersorg = {
     'ComplexPortal':'complexportal', 'DNASU':None, 'MINT':None, 'ESTHER':None, 'PeroxiBase':'peroxibase', 'CollecTF':None,
     'PHI-base':None, 'Allergome':'allergome', 'DisProt':'disprot', 'REBASE':'rebase', 'SwissLipids':None, 'Reactome':'reactome'
 }
+
+df.replace({1: thisdata2identifiersorg}, inplace=True)
+df.drop(df[df[1].isnull()].index, inplace=True)
