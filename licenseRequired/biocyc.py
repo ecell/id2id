@@ -1,3 +1,4 @@
+import pandas as pd
 import pybiopax
 model = pybiopax.model_from_owl_file('biopax-level3.owl')
 objs = model.objects
