@@ -4,6 +4,7 @@ model = pybiopax.model_from_owl_file('biopax-level3.owl')
 objs = model.objects
 
 f = open('biocyc.tsv', 'w')
+f.write('identifiersorgprefix1\tid1\tidentifiersorgprefix2\tid2\n')
 thisdb2other = {'Kegg Ligand':'kegg.compound', 'PubChem (CID)':'pubchem.compound', 'ChEBI': 'CHEBI', 'BIGG':'bigg.metabolite',
     'MetaNetX':'metanetx.chemical', 'Seed':'seed.compound', 'ZINC':'zinc', 'EchoBASE':'echobase', 'ASAP':'asap', 'UniProt':'uniprot',
     'NCBI Reference Sequences Database':'refseq', 'EcoliWiki':'ecoliwiki', 'Smart':'smart', 'InterPro':'interpro', 'Pfam':'pfam',
