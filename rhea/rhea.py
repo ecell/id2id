@@ -10,4 +10,4 @@ df.rename(columns = {'RHEA_ID':'id1', 'ID':'id2', 'DB':'identifiersorgprefix2'},
 df = df[['identifiersorgprefix1', 'id1', 'identifiersorgprefix2', 'id2']]
 tmp = 'ECOCYC:' + df[df['identifiersorgprefix2']=='biocyc']['id2']
 df['id2'].loc[tmp.index] = tmp
-df.to_csv('CHEBI.csv', index=False)
+df.to_csv('rhea.tsv', index=False, sep="\t")

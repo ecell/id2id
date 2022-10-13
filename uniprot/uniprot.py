@@ -18,4 +18,4 @@ df.drop(df[df[1].isnull()].index, inplace=True)
 df['identifiersorgprefix1'] = 'uniprot'
 df.rename(columns={0:'id1', 1:'identifiersorgprefix2', 2:'id2'}, inplace=True)
 df = df[['identifiersorgprefix1', 'id1', 'identifiersorgprefix2', 'id2']]
-df.to_csv('uniprot.csv', index=False)
+df.to_csv('uniprot.tsv', index=False, sep="\t")

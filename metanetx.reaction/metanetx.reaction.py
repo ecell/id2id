@@ -15,4 +15,4 @@ df5=df2[df3[0].isin(idorgpref)]
 result = pd.DataFrame({'idenfiersorg2': df4[0], 'id2': df4[1], 'id1': df5['ID']})
 result['idenfiersorg1'] = 'metanetx.reaction'
 result = result[['idenfiersorg1', 'id1', 'idenfiersorg2', 'id2']]
-result.to_csv('metanetx.reaction.csv', index=False)
+result.to_csv('metanetx.reaction.tsv', index=False, sep="\t")
