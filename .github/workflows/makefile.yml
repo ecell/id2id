@@ -16,9 +16,9 @@ jobs:
         sudo apt-get install wget make python3 python3-pip
         python3 -m pip install -r requirements.txt    
     - name: download inputs
-      run: cd scripts && bash wgetdata.sh      
+      run: bash wgetdata.sh      
     - name: bigg.metabolite
-      run: cd scripts && python bigg.metabolite.py
+      run: mv bigg_models_metabolites.txt bigg.metabolite && cd scripts && python bigg.metabolite.py
     - name: bigg.reaction
-      run: cd scripts && python bigg.reaction.py
+      run: mv bigg_models_reactions.txt bigg.reaction && cd scripts && python bigg.reaction.py
       
