@@ -29,3 +29,5 @@ jobs:
       run: mv reac_xref.tsv metanetx.reaction && cd metanetx.reaction && python metanetx.reaction.py
     - name: rhea
       run: mv rhea2xrefs.tsv rhea && cd rhea && python rhea.py
+    - name: uniprot
+      run: mv ECOLI_83333_idmapping.dat.gz uniprot && cd uniprot && gunzip ECOLI_83333_idmapping.dat.gz && python uniprot.py
