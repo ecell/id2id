@@ -5,8 +5,8 @@ brenda=json.load(open("brenda_2022_2.json"))
 data = brenda['data']
 ecnumbers = data.keys()
 
-f = open('brenda.csv', 'w')
-f.write('identifiersorgprefix1,id1,identifiersorgprefix2,id2\n')
+f = open('brenda.tsv', 'w')
+f.write('identifiersorgprefix1\tid1\tidentifiersorgprefix2\tid2\n')
 for ecnumber in ecnumbers:
     if ecnumber != 'spontaneous':
         if 'proteins' in data[ecnumber]:
@@ -20,5 +20,5 @@ for ecnumber in ecnumbers:
                     #     print(accession)
                     #     print(protein[0]['source'])
                     # print('brenda,' + ecnumber + ',' + protein[0]['source'] + ',' + accession)
-                    f.write('brenda,' + ecnumber + ',' + protein[0]['source'] + ',' + accession + '\n')
+                    f.write('brenda\t' + ecnumber + '\t' + protein[0]['source'] + '\t' + accession + '\n')
 f.close()
