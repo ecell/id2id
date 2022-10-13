@@ -27,4 +27,5 @@ jobs:
       run: cd brenda && tar xf brenda_2022_2.json.tar.gz && python brenda.py
     - name: metanetx.reaction
       run: mv reac_xref.tsv metanetx.reaction && cd metanetx.reaction && python metanetx.reaction.py
-      
+    - name: rhea
+      run: mv rhea2xrefs.tsv rhea && cd rhea && python rhea.py
