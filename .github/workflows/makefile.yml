@@ -21,4 +21,6 @@ jobs:
       run: mv bigg_models_metabolites.txt bigg.metabolite && cd bigg.metabolite && python bigg.metabolite.py
     - name: bigg.reaction
       run: mv bigg_models_reactions.txt bigg.reaction && cd bigg.reaction && python bigg.reaction.py
+    - name: CHEBI
+      run: mv database_accession_3star.tsv CHEBI && cd CHEBI && python CHEBI.py
       
