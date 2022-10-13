@@ -25,3 +25,6 @@ jobs:
       run: mv bigg_models_reactions.txt bigg.reaction && cd bigg.reaction && python bigg.reaction.py
     - name: brenda
       run: cd brenda && tar xf brenda_2022_2.json.tar.gz && python brenda.py
+    - name: metanetx.reaction
+      run: mv reac_xref.tsv metanetx.reaction && cd metanetx.reaction && python metanetx.reaction.py
+      
