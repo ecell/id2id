@@ -1,14 +1,5 @@
 # id2id
 
-## Requirements
-
-1. Ubuntu
-2. wget
-3. Python
-4. pandas
-5. pybiopax
-6. make
-
 ## How to download data for id2id
 
 Run `cd scripts && bash download.sh`
