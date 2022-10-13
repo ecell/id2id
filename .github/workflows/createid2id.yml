@@ -1,4 +1,4 @@
-name: Makefile CI
+name: id2id table creation CI
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: initialize
       run: |
-        sudo apt-get install wget make python3 python3-pip
+        sudo apt-get install wget python3 python3-pip
         python3 -m pip install -r requirements.txt    
     - name: download inputs
       run: bash wgetdata.sh      
@@ -23,6 +23,8 @@ jobs:
       run: mv bigg_models_metabolites.txt bigg.metabolite && cd bigg.metabolite && python bigg.metabolite.py
     - name: bigg.reaction
       run: mv bigg_models_reactions.txt bigg.reaction && cd bigg.reaction && python bigg.reaction.py
+    - name: biocyc
+      run: cd biocyc && python biocyc.py
     - name: brenda
       run: cd brenda && tar xf brenda_2022_2.json.tar.gz && python brenda.py
     - name: metanetx.reaction

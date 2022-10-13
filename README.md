@@ -1,24 +1,15 @@
 # id2id
 
-## Requirements
+## Zenodo
 
-1. Ubuntu
-2. wget
-3. Python
-4. pandas
-5. pybiopax
-6. make
-
-## How to download data for id2id
-
-Run `cd scripts && bash download.sh`
-
-## How to generate id2id tables
-
-Run `cd scripts && make bigg.metabolite.csv`
+TO BE FILLED.
 
 ## id2id table column definitions
 
 | identifiersorgprefix1 | id1 | identifiersorgprefix2 | id2 |
 |-----------------------|-----|-----------------------|-----|
 | ...                   | ... | ...                   | ... |
+
+## How to reproduce id2id table
+
+See https://github.com/ecell/id2id/blob/main/.github/workflows/createid2id.yml
