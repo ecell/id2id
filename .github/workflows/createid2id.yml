@@ -18,21 +18,21 @@ jobs:
     - name: download inputs
       run: bash wgetdata.sh      
     - name: CHEBI
-      run: mv database_accession_3star.tsv CHEBI && cd CHEBI && python CHEBI.py
+      run: mv database_accession_3star.tsv CHEBI && cd CHEBI && python CHEBI.py && ls -lh CHEBI.tsv
     - name: bigg.metabolite
-      run: mv bigg_models_metabolites.txt bigg.metabolite && cd bigg.metabolite && python bigg.metabolite.py
+      run: mv bigg_models_metabolites.txt bigg.metabolite && cd bigg.metabolite && python bigg.metabolite.py && ls -lh bigg.metabolite.tsv
     - name: bigg.reaction
-      run: mv bigg_models_reactions.txt bigg.reaction && cd bigg.reaction && python bigg.reaction.py
+      run: mv bigg_models_reactions.txt bigg.reaction && cd bigg.reaction && python bigg.reaction.py && ls -lh bigg.reaction.tsv
     - name: biocyc
-      run: cd biocyc && python biocyc.py
+      run: cd biocyc && python biocyc.py && ls -lh biocyc.tsv
     - name: brenda
-      run: cd brenda && tar xf brenda_2022_2.json.tar.gz && python brenda.py
+      run: cd brenda && tar xf brenda_2022_2.json.tar.gz && python brenda.py && ls -lh brenda.tsv
     - name: metanetx.reaction
-      run: mv reac_xref.tsv metanetx.reaction && cd metanetx.reaction && python metanetx.reaction.py
+      run: mv reac_xref.tsv metanetx.reaction && cd metanetx.reaction && python metanetx.reaction.py && ls -lh metanetx.reaction.tsv
     - name: rhea
-      run: mv rhea2xrefs.tsv rhea && cd rhea && python rhea.py
+      run: mv rhea2xrefs.tsv rhea && cd rhea && python rhea.py && ls -lh rhea.tsv
     - name: uniprot
-      run: mv ECOLI_83333_idmapping.dat.gz uniprot && cd uniprot && gunzip ECOLI_83333_idmapping.dat.gz && python uniprot.py
+      run: mv ECOLI_83333_idmapping.dat.gz uniprot && cd uniprot && gunzip ECOLI_83333_idmapping.dat.gz && python uniprot.py && ls -lh uniprot.tsv
     - name: Combine all the output TSVs
       run: |
         cat CHEBI/CHEBI.tsv bigg.metabolite/bigg.metabolite.tsv bigg.reaction/bigg.reaction.tsv biocyc/biocyc.tsv brenda/brenda.tsv metanetx.reaction/metanetx.reaction.tsv rhea/rhea.tsv uniprot/uniprot.tsv > id2id.tsv
