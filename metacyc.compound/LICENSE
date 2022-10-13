@@ -1,0 +1,145 @@
+SOFTWARE and DATABASE LICENSE AGREEMENT
+
+Pathway Tools Software and BioCyc Database Collection
+
+PLEASE READ THESE TERMS AND CONDITIONS OF USE CAREFULLY BEFORE USING THIS VERSION OF THE SOFTWARE (AS SUCH TERM IS DEFINED BELOW).
+
+By clicking on the "I Agree" button at the bottom of this page, LICENSEE signifies assent to the terms and conditions set forth in this agreement (“Agreement”). If LICENSEE does not agree to these terms and conditions, please click on the "I Do Not Agree" button and do not continue to use this program. SRI International (“SRI”) reserves the right, at its discretion, to modify the terms of this license at any time; SRI will provide notice of such modifications to you through Pathway Tools, by electronic mail to the address used to register on biocyc.org, and/or by notices on biocyc.org – continued use of the software and databases will constitute agreement to the modified version of the terms.
+
+OVERVIEW
+
+A. Pathway Tools software is a bioinformatics software system for pathway analysis of genomes, and for creating pathway/genome databases (PGDBs). A PGDB is a bioinformatics database that integrates genomic data with detailed functional annotations of the genome, such as descriptions of metabolic and signaling pathways; and
+
+B. Under this Agreement, LICENSEE is able to, among other things:
+
+1) Create New Databases. Use Pathway Tools software to create new PGDBs, and redistribute those databases as files or register them in the SRI database registry for redistribution (as long as those databases are also hosted by LICENSEE on an external website, meaning a website that is accessible to the public);
+
+2) Operate an External Website. Operate an external website using Pathway Tools software, where that website makes available any or all of the “open” BioCyc databases, and/or PGDBs created by LICENSEE;
+
+3) Operate an Intranet Website. Operate a website on LICENSEE’s intranet using Pathway Tools software, where that website makes available any or all of the BioCyc databases and/or PGDBs created by LICENSEE (if that website contains any of the “limited” BioCyc databases, then the website may be used by a single laboratory, but not by a larger unit of LICENSEE’s organization such as a department); and
+
+4) Create and Distribute Enhancements. Distribute additional software you create that interacts with the Pathway Tools software, as long as your software does not contain parts of Pathway Tools itself, or modifications of Pathway Tools. If you wish to distribute additional software that contains parts of Pathway Tools, or enhancements to Pathway Tools, LICENSEE must confirm with SRI that the person you wish to distribute to has a valid Pathway Tools software license.
+
+NOW, THEREFORE, in consideration of the mutual covenants set forth below, the parties hereby agree as follows:
+
+AGREEMENT
+
+1. SOFTWARE LICENSE
+
+1.1 License Grant. SRI hereby grants to LICENSEE a non-exclusive, royalty-free license to use, copy, and reproduce the Software and the Documentation solely for internal, non-commercial, educational or research purposes. Upon execution of this Agreement by Licensee and SRI, SRI shall disclose and make available to LICENSEE one (1) copy of the Software and Documentation to the extent not previously disclosed or made available to LICENSEE. SRI in its sole discretion may include complete or partial source code related to the Software.
+
+1.1.1 “Software” collectively means the current version of the code, materials, and information for each of the software programs described in Exhibit A and any updates and upgrades thereto as may be provided by SRI.
+
+1.1.2 “Documentation” means the Pathway Tools software User’s Guide and any other printed or online material customarily made available by SRI to its licensees of the Software.
+
+1.1.3 “Person” means an individual, corporation, partnership, limited liability company, trust, business trust, association, joint stock company, joint venture, pool, syndicate, sole proprietorship, unincorporated organization, governmental authority or any other form of entity not specifically listed herein.
+
+1.1.4 “Internal Website” means a website operated by LICENSEE that is only accessible on a restricted basis internally within LICENSEE’s organization.
+
+1.2 Derivative Works. LICENSEE shall own all right, title, and interest in any Derivative Works or Modifications. “Derivative Works” means improvements to or of the Software which incorporate the Software or Documentation in whole or in part. “Modifications” means improvements to the Software or the Documentation which do not incorporate the Software or Documentation. LICENSEE shall not enter into any agreements granting rights related to Derivative Works to any third party until SRI provides LICENSEE with written evidence that such third party has previously entered into a license agreement with SRI, thereby obtaining rights to the Software. LICENSEE, at LICENSEE’S election, may disclose to SRI any Derivative Works or Modifications and such disclosure shall constitute a grant by LICENSEE to SRI of a worldwide, perpetual, non-exclusive, royalty-free license to incorporate, use, copy, modify, enhance, reproduce, distribute, offer for sale, or sell such disclosed Derivative Work or Modification.
+
+1.3 License Restrictions. LICENSEE shall have no right to sublicense, delegate, or otherwise transfer the license granted hereby or any right or obligation hereunder. LICENSEE shall have no license to:
+
+(a) market, distribute, or otherwise exploit the Software or Documentation by sale or other transfer of ownership, by rental, lease or lending, or otherwise;
+
+(b) market, distribute, sell, and otherwise exploit any services performed using the Software or Documentation;
+
+(c) disclose or disseminate the Software or Documentation to any third party; or
+
+(d) use the Software and Documentation to provide service bureau, time-sharing, testing or other computer services to any Person.
+
+LICENSEE shall not permit any third party, to modify, adapt, translate, or prepare Derivative Works or Modifications from the Software. LICENSEE shall not, and shall not permit any third party, to decompile, reverse engineer, disassemble, or otherwise attempt to derive source code from the Software or any internal data files generated by the Software. LICENSEE shall not make copies of the Software or Documentation, provided that LICENSEE may make one (1) additional copy for backup and archival purposes. Except as otherwise expressly set forth in this Article 1, this Agreement shall not be construed to grant to any Person any right or interest in or to the Software, Documentation, or any intellectual property rights or technology of SRI or any other Person whatsoever. All licenses, immunities, and other rights granted by SRI in this Agreement are limited solely to the extent that SRI has the right to grant such rights without payment of any fees or royalties to third parties.
+
+1.4 Copyright. LICENSEE hereby acknowledges that SRI and its licensors have claimed, or may claim, copyright protection with respect to the Software and Documentation. LICENSEE shall cooperate with SRI, take such actions and execute such documents, as reasonably requested by SRI and at SRI’s expense, to assist SRI in the protection of SRI’s and its licensor’s copyrights in the Software and Documentation. All copyright notices of SRI and its licensors shall be reproduced on all copies of the Software and Documentation.
+
+1.5 No Support or Maintenance. SRI shall have no obligation to provide LICENSEE with updates or upgrades or to otherwise provide support and maintenance for the Software or Documentation.
+
+2. DATABASE LICENSES AND RIGHTS
+
+2.1 Open Databases. SRI hereby grants to LICENSEE a non-exclusive, royalty-free license to use, modify and redistribute the Open Databases (as such term is defined in Exhibit B) and LICENSEE’s modified versions thereof on a royalty-free basis, worldwide and for any purpose; provided, in each case, that if LICENSEE modifies any Open Database (the modified version being a “Modified Open Database”), then (i) LICENSEE must provide a copy of the Modified Open Database to SRI (and hereby grants to SRI a nonexclusive, royalty-free license to use, modify, and redistribute the Modified Open Database worldwide and for any purpose and to authorize others to do so); and (ii) any Modified Open Databases, or websites from which such Modified Open Databases may be obtained, must clearly and prominently:
+
+(a) identify the Open Databases from which they were derived:
+
+(b) include all applicable copyright notices and author lists from the Open Databases from which they were derived; and
+
+(c) identify or summarize all modifications that were made.
+
+Any distribution of such Modified Open Databases without the required notices is a violation of SRI's and its licensors' copyright and other proprietary rights. All trademarks, service marks, and trade names are proprietary to SRI and its licensors. The Open Databases, including any files incorporated in or generated from the Open Databases and data accompanying the Open Databases, are licensed to LICENSEE by SRI and its licensors, and SRI and its licensors do not transfer title or any other rights in the Open Databases to LICENSEE. LICENSEE may not use the Open Databases except as otherwise specified herein.
+
+2.1.1 If SRI, in its sole discretion, determines that a Modified Database is of sufficient quality and interest to the community to be hosted on biocyc.org, then SRI may (if the Modified Database includes significant curation over the original Open Database it is derived from, or the last version of the Modified Database provided to SRI) provide to LICENSEE a personal, one-year subscription to biocyc at no cost; provided, however, that if LICENSEE edits the Modified Database via a MySQL server operated by SRI or its contractors, such free one-year subscription will be forfeited.
+
+2.2 Limited Databases. SRI hereby grants to LICENSEE a non-exclusive, royalty-free license to the Limited Databases (as such term is defined in Exhibit B) to install copies of the Limited Databases and LICENSEE’s modified versions thereof onto computers at LICENSEE’s institution (including on an Internal Website for use by a single laboratory, but not for use by larger organizational units such as departments of an organization), solely for non-commercial research purposes provided, in each case, that if LICENSEE modifies any Limited Database (the modified version being a “Modified Limited Database”), then (i) LICENSEE must provide a copy of the Modified Limited Database to SRI (and hereby grants to SRI a nonexclusive, royalty-free license to use, modify, and redistribute the Modified Limited Database worldwide and for any purpose and to authorize others to do so); and (ii) any Modified Limited Databases, or websites from which such Modified Limited Open Databases may be obtained, must clearly and prominently:
+
+(a) identify the Limited Databases from which they were derived:
+
+(b) include all applicable copyright notices and author lists from the Limited Databases from which they were derived; and
+
+(c) identify or summarize all modifications that were made.
+
+Use of the Limited Databases for any other purpose is a violation of SRI's and its licensors' copyright and other proprietary rights, and LICENSEE may not republish, post, transmit, or distribute Limited Databases in any way except as expressly set forth herein. LICENSEE is prohibited from uploading the Limited Databases to the internet or providing the Limited Databases or modified forms of the Limited Databases to any third party except as expressly allowed herein. When LICENSEE installs the Limited Databases from the Internet, the Limited Databases, including any files incorporated in or generated from the Limited Databases and data accompanying the Limited Databases, is licensed to LICENSEE by SRI and its licensors, and SRI and its licensors do not transfer title or any other rights in the Limited Databases to LICENSEE. LICENSEE may not use the Limited Databases except as otherwise specified herein.
+
+2.2 If SRI, in its sole discretion, determines that a Modified Open Database or Modified Limited Database (either being a “Modified Database”) is of sufficient quality and interest to the community to be hosted on biocyc.org, then SRI may (if the Modified Database includes significant curation over the original Open Database it is derived from, or the last version of the Modified Database provided to SRI) provide to LICENSEE a personal, one-year subscription to biocyc.org at no cost; provided, however, that if LICENSEE edits the Modified Database via a MySQL server operated by SRI or its contractors, such free one-year subscription will be forfeited.
+
+2.3 Licensee-Databases. LICENSEE shall own all right, title, and interest in any Licensee-Databases (including any subsets of such Licensee-Databases). “Licensee-Databases” means new databases created by LICENSEE using the Software such as the PathoLogic component of the Software. LICENSEE may create an unlimited number of Licensee-Databases, including subsets thereof. LICENSEE shall have no right to commercially distribute Licensee-Databases or any subsets thereof to third parties unless LICENSEE posts and maintains such Licensee-Databases on a website operated by LICENSEE that is accessible by third parties over the world wide web on an unrestricted basis. LICENSEE, at LICENSEE’S election, may disclose to SRI any subsets of Licensee-Databases, and such disclosure shall constitute a grant by LICENSEE to SRI of a worldwide, perpetual, non-exclusive, royalty-free license to incorporate, use, copy, modify, enhance, reproduce, distribute, offer for sale, or sell such disclosed Derivative Work, Modification, or subset of a Licensee-Database. LICENSEE, at LICENSEE’S election, may disclose to SRI any Licensee-Database, and any such disclosure shall constitute a grant by LICENSEE to SRI of a worldwide, perpetual, non-exclusive, royalty-free license to incorporate, use, copy, modify, enhance, reproduce, or distribute, but not to offer for sale or sell, such disclosed Licensee-Database in whole.
+
+2.4 No Support or Guarantee of Availability. With respect to the Databases or any portion thereof, SRI shall have no obligation to (a) provide LICENSEE with updates or upgrades or to otherwise provide support and maintenance, or (b) make all Databases continually available to LICENSEE.
+
+3. TERM AND TERMINATION
+
+3.1 Term and Termination. Unless previously terminated pursuant to this section (Term and Termination), this Agreement shall be perpetual. Either party may terminate this Agreement, in its sole discretion, upon thirty (30) days notice to the other party. SRI may also terminate this Agreement (a) upon or after the breach of any material provision of this Agreement by LICENSEE if LICENSEE has not cured such breach within thirty (30) days after receipt of written notice thereof by SRI, or (b) in the event of any claim that the Software infringes the patent, copyright, or other intellectual property right of any third party.
+
+3.2 Effect of Expiration or Termination. Expiration or termination of this Agreement shall not relieve the parties of any obligation accruing prior to such expiration or termination. Any terms and conditions of this Agreement, which by their nature extend beyond the term or expiry of this Agreement, shall survive the termination or expiry of this Agreement. This includes, without limitation, the disclaimer of representations and warranties, limitations of liability, and this survival provision. Upon termination or expiration for any reason, LICENSEE shall promptly destroy or return any and all copies of the Licensed Material (and any and all copies thereof) remaining in LICENSEE's possession.
+
+4. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
+
+4.1 Mutual Representations. Each party hereby represents and warrants to the other party that such party has taken all necessary action on its part to authorize the execution and delivery of this Agreement and the performance of its obligations hereunder.
+
+4.2 DISCLAIMER OF WARRANTIES. THE LICENSED MATERIAL IS PROVIDED “AS IS,” AND SRI AND ITS LICENSORS MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY TYPE WHATSOEVER REGARDING THE LICENSED MATERIAL. SRI AND ITS LICENSORS EXPRESSLY DISCLAIM ALL REPRESENTATIONS AND WARRANTIES REGARDING THE LICENSED MATERIAL, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE, OR THAT THE SOFTWARE’S FUNCTIONS WILL BE UNINTERRUPTED, ERROR-FREE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.
+
+4.3 LIMITED LIABILITY. IN NO EVENT SHALL SRI OR ITS LICENSORS OR THEIR SUPPLIERS BE LIABLE TO LICENSEE FOR ANY SPECIAL, CONSEQUENTIAL, INCIDENTAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT OR WITH RESPECT TO ANY CLAIM, DEMAND, ACTION, OR OTHER PROCEEDING RELATING TO THIS AGREEMENT HOWEVER CAUSED, AND ON ANY THEORY OF LIABILITY (INCLUDING NEGLIGENCE) AND WHETHER OR NOT SRI AND ITS LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN NO EVENT SHALL SRI’S OR ITS LICENSORS’ LIABILITY OWING TO LICENSEE OR ANY AFFILIATE OR THIRD PARTY WITH RESPECT TO ANY CLAIM, DEMAND, ACTION, OR OTHER PROCEEDING RELATING TO THIS AGREEMENT EXCEED THE TOTAL AMOUNT, IF ANY, ACTUALLY PAID BY LICENSEE TO SRI PURSUANT TO THIS AGREEMENT. LICENSEE’S USE OF THE LICENSED MATERIAL IS ENTIRELY AT ITS OWN RISK.
+
+5. MISCELLANEOUS
+
+5.1 U.S. Government Rights. The terms set forth in this Section (U.S. Government Rights) shall apply if the Software or any accompanying documentation is used or acquired by or on behalf of any unit, division, or agency of the United States Government. The Licensed Material constitute a “commercial item,” as that term is defined at Federal Acquisition Regulation (“FAR”) 2.101, consisting of “commercial software” and “commercial computer software documentation” pursuant to Department of Defense, FAR Supplement 227.7202 and FAR 12.212, as applicable. Any use, modification, reproduction, release, performance, display, or disclosure of the Licensed Material by the U.S. Government or any of its agencies shall be governed solely by the terms of this Agreement and shall be prohibited except to the extent expressly permitted by the terms of this Agreement. The contractor/manufacturer of the Software and accompanying documentation is SRI International, 333 Ravenswood Avenue, Menlo Park, California 94025, USA. Notwithstanding anything to the contrary in this Agreement, the license granted to LICENSEE hereby is subject to the reservation of the rights, if any, which may exist in favor of the United States Government pursuant to Title 35 United States Code Chapter 18 and the regulations promulgated thereunder.
+
+5.2 Entire Agreement. This Agreement embodies the entire understanding between the parties and supersedes any prior understanding and agreements between and among them respecting the subject matter hereof. There are no representations, agreements, arrangements or understandings, oral or written, between the parties hereto relating to the subject matter of this Agreement which are not fully expressed herein. No change, modification, extension, termination or waiver of this Agreement, or any of the provisions herein contained, shall be valid unless made in writing and signed by duly authorized representatives of the parties hereto.
+
+5.3 U.S. Export Laws and Regulations. Each party hereby acknowledges that the rights and obligations of this Agreement are subject to the laws and regulations of the United States relating to the export of products and technical information. Without limitation, each party shall comply with all such laws and regulations. The Software may not be installed, downloaded, or otherwise exported or re-exported (a) into (or to a national resident of) any country to which the U.S. has embargoed goods, or (b) to anyone on the U.S. Treasury Department’s list of Specialty Designated Nationals or the U.S. Commerce Department’s Table of Deny Orders.
+
+5.4 No Use of Name. Except as otherwise set forth in this Agreement or required by applicable law, regulation or order of a governmental agency or court of competent jurisdiction, neither party shall use the name of the other party or the other party’s directors, officers or employees in any advertising, news release or other publication, without the prior express written consent of the other party.
+
+5.5 Notices. Any consent or notice required or permitted to be given or made under this Agreement by one party to the other party shall be in writing and delivered to the other party at such address as the addressee has last furnished in writing to the addressor. Any such consent or notice shall be effective upon receipt by the addressee.
+
+5.6 Severability. Any of the provisions of this Agreement which are determined to be invalid or unenforceable in any jurisdiction shall be ineffective to the extent of such invalidity or unenforceability in such jurisdiction, without rendering invalid or unenforceable the remaining provisions hereof and without affecting the validity or enforceability of any of the terms of this Agreement in any other jurisdiction.
+
+5.7 Governing Law. This Agreement, including any decision to arbitrate and any decision by an arbitrator, shall be governed by and construed in accordance with the laws of the State of California, without regard to the conflicts of law principles thereof, and shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods.
+
+5.8 Assignment. LICENSEE shall not assign, delegate or otherwise transfer this Agreement or its rights or obligations under this Agreement, in whole or in part, by operation of law or otherwise, to any other Person without the prior express written consent of SRI. Any purported assignment, delegation or transfer in violation of this Section (Assignment) shall be void.
+
+5.9 Waiver. The waiver by either party hereto of any right hereunder or the failure to perform or of a breach by the other party shall not be deemed a waiver of any other right hereunder or of any other breach or failure by said other party whether of a similar nature or otherwise.
+
+EXHIBIT A
+
+DESCRIPTION OF SOFTWARE
+
+Licensee may choose one or both of the following configurations of the Software:
+
+1. The full “Pathway Tools” software, consisting of a Navigator component, an Editors component, and a component called PathoLogic. This configuration shall be provided as a binary executable program for the Unix operating system, and for other operating systems as provided by SRI, at SRI’s sole discretion.
+
+2. The Navigator component of the “Pathway Tools” software. This configuration shall be provided as a binary executable program for the Unix operating system, and for the Windows operating system, and for other operating systems as provided by SRI, at SRI’s sole discretion.
+
+EXHIBIT B
+
+DESCRIPTION OF DATABASES
+
+“Limited Databases” means any or all of the “public” versions (typically, about 1-2 years behind the paid, subscription version) of the limited BioCyc Pathway/genome databases other than Open Databases; the full list of BioCyc databases is posted on the SRI Website at the URL http://biocyc.org/biocyc-pgdb-list.shtml.
+
+"Open Databases” means the EcoCyc and MetaCyc Pathway/genome databases.
+
+“Databases” means the Limited Databases and the Open Databases, collectively.
+
+“Licensed Material” means the Databases, together with the Software and the Documentation.
+
+
+
+© SRI International and its Licensors. All rights reserved. [PT License–ACADEMIC/NON-PROFIT (21 Apr 2016)]
