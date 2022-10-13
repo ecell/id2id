@@ -9,8 +9,8 @@ f = open('brenda.csv', 'w')
 f.write('identifiersorgprefix1,id1,identifiersorgprefix2,id2\n')
 for ecnumber in ecnumbers:
     if ecnumber != 'spontaneous':
-        if 'proteins' in b[ecnumber]:
-            proteins = b[ecnumber]['proteins']
+        if 'proteins' in data[ecnumber]:
+            proteins = data[ecnumber]['proteins']
             for protein in proteins.values():
                 # if len(protein) > 1:
                 #     print(protein)
