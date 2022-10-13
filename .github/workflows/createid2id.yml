@@ -33,3 +33,7 @@ jobs:
       run: mv rhea2xrefs.tsv rhea && cd rhea && python rhea.py
     - name: uniprot
       run: mv ECOLI_83333_idmapping.dat.gz uniprot && cd uniprot && gunzip ECOLI_83333_idmapping.dat.gz && python uniprot.py
+    - name: Combine all the output TSVs
+      run: |
+        cat CHEBI/CHEBI.tsv bigg.metabolite/bigg.metabolite.tsv bigg.reaction/bigg.reaction.tsv biocyc/biocyc.tsv brenda/brenda.tsv metanetx.reaction/metanetx.reaction.tsv rhea/rhea.tsv uniprot/uniprot.tsv > id2id.tsv
+        ls -lh id2id.tsv
