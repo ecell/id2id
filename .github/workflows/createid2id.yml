@@ -1,4 +1,4 @@
-name: Makefile CI
+name: id2id table creation CI
 
 on:
   push:
