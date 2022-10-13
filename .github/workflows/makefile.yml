@@ -19,7 +19,7 @@ jobs:
         python3 -m pip install -r requirements.txt
     
     - name: download inputs
-      run: cd scripts && bash download.sh
+      run: cd scripts && bash wgetdata.sh
       
     - name: make bigg.metabolite.csv
       run: cd scripts && make bigg.metabolite.csv
