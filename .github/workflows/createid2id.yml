@@ -1,14 +1,15 @@
 name: id2id table creation CI
 
-on:
+on: 
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    tags:
+    - '*'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v3
     - name: initialize
@@ -37,3 +38,7 @@ jobs:
       run: |
         cat CHEBI/CHEBI.tsv bigg.metabolite/bigg.metabolite.tsv bigg.reaction/bigg.reaction.tsv biocyc/biocyc.tsv brenda/brenda.tsv metanetx.reaction/metanetx.reaction.tsv rhea/rhea.tsv uniprot/uniprot.tsv > id2id.tsv
         ls -lh id2id.tsv
+    - uses: ncipollo/release-action@v1
+      with:
+        artifacts: "id2id.tsv"
+        token: ${{ secrets.YOUR_GITHUB_TOKEN }}
