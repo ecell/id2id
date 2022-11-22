@@ -2,8 +2,8 @@ name: id2id table creation CI
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - '*'
 
 jobs:
   build:
@@ -38,12 +38,16 @@ jobs:
       run: |
         cat CHEBI/CHEBI.tsv bigg.metabolite/bigg.metabolite.tsv bigg.reaction/bigg.reaction.tsv biocyc/biocyc.tsv brenda/brenda.tsv metanetx.reaction/metanetx.reaction.tsv rhea/rhea.tsv uniprot/uniprot.tsv > id2id.tsv
         ls -lh id2id.tsv
-    - name: Update release
-      uses: johnwbyrd/update-release@v1
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        files: ./id2id.tsv
-    - uses: actions/upload-artifact@v3
-      with:
-        name: my-artifact
-        path: id2id.tsv
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: id2id.tsv
+        asset_name: mything
+        tag: ${{ github.ref }}
+        overwrite: true
+        body: "This is my release text"
+#     - uses: actions/upload-artifact@v3
+#       with:
+#         name: my-artifact
+#         path: id2id.tsv
